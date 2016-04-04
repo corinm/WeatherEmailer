@@ -8,7 +8,7 @@ Sends daily weather forecast emails via Heroku
 * Rows are colour coded to provide a quick overview of weather (e.g. bright yellow = sunny and warm, dark blue = heavy rain etc.)
 * Data provided includes a description of the weather (e.g. "Cloudy"), actual temperature, 'feels like' temperature, chance of rain, wind speed and maximum wind speed (i.e. gusts)
 
-## Examplanation of implementation
+## Explanation of implementation
 * Hosted on Heroku
 * Hard-code contacts in Main.java in the form `contacts.add(new Contact("example@email.com","AA112BB"));`
 * Uses Postcodes.io to validate postcodes and lookup lat and long values
@@ -17,6 +17,16 @@ Sends daily weather forecast emails via Heroku
 * Converts JSON data to AllForecasts object, which contains two ForecastDay objects, which contain multiple Forecast3Hr objects (which represent each 3-hour forecast interval)
 * Uses a hard-coded responsive HTML email, inserts a table for each ForecastDay and a row for each Forecast3hr
 * Uses Heroku Scheduler and SendGrid to send the emails at ~7.30am every day
+
+## Requirements
+* Met Office API key (free)
+* Heroku account (free)
+* Heroku Scheduler addon (free, but requires credit card validation)
+* Heroku SendGrid addon (as above)
+* The following environment variables (AKA Heroku Config Vars):
+  * MET_KEY = Your Met Office API key
+  * SENDGRID_USERNAME
+  * SENDGRID_PASSWORD
 
 ## Planned changes
 * Remove hard-coded contacts and store them in a Heroku Postgres database
