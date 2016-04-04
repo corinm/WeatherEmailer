@@ -3,7 +3,7 @@ Sends daily weather forecast emails via Heroku
 
 <p align="center">
   <img src="https://github.com/corinm/WeatherEmailer/blob/master/resources/GitHub_Emailer1.png?raw=true" width="224" height="400" alt="Screenshot showing weather email on smartphone"/>
-  &nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="https://github.com/corinm/WeatherEmailer/blob/master/resources/GitHub_Emailer2.png?raw=true" width="224" height="400" alt="Screenshot showing weather email on smartphone"/><br />
   <i>Click images above for full-sized versions</i>
 </p>
