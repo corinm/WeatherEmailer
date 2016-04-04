@@ -41,3 +41,4 @@ Sends daily weather forecast emails via Heroku
 
 ## Tests
 * To be added
+Note: I wrote this before learning TDD, therefore tests will be written after the code was written
