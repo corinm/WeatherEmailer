@@ -1,5 +1,5 @@
 # WeatherEmailer
-Sends daily weather forecast emails
+Sends daily weather forecast emails via Heroku
 
 ## Current features
 * Hosted on Heroku
