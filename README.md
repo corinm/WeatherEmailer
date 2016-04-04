@@ -1,6 +1,8 @@
 # WeatherEmailer
 Sends daily weather forecast emails via Heroku
 
+https://github.com/corinm/WeatherEmailer/blob/master/resources/GitHub_Emailer.png?raw=true
+
 ## Current features
 * Accepts multiple contacts, allowing multiple postcodes per email address
 * Weather forecast data obtained from the Met Office
